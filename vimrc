@@ -57,7 +57,7 @@ highlight Search ctermbg=lightgrey ctermfg=black
 highlight clear MatchParen
 highlight MatchParen ctermbg=grey ctermfg=black
 highlight SpecialKey ctermbg=NONE
-highlight NonText ctermfg=grey ctermbg=NONE
+highlight NonText ctermfg=59 ctermbg=NONE
 highlight CursorLine ctermbg=darkgrey
 
 "Highlight extra whitespace
