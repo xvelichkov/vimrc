@@ -14,7 +14,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dikiaap/minimalist'
 Plugin 'vim-scripts/a.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'jakedouglas/exuberant-ctags'
 Plugin 'sheerun/vim-polyglot'
 
 " All the Plugins must be added before the following line
