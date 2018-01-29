@@ -42,7 +42,7 @@ set hidden                      " hide buffers instead of closing them this
                                 "    that marks and undo history are preserved
 
 set number                      " always show line numbersset listchars=tab:▸\ ,eol:¬
-set listchars=tab:\|\ ,eol:¬
+set listchars=tab:\▸\ ,eol:¬
 set list
 set ts=4 sts=4 sw=4             " a tab is four spaces
 set smarttab
