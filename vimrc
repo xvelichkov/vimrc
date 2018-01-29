@@ -15,6 +15,8 @@ Plugin 'dikiaap/minimalist'
 Plugin 'vim-scripts/a.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/nerdcommenter'
 
 " All the Plugins must be added before the following line
 call vundle#end() 		" required
@@ -49,14 +51,14 @@ set noexpandtab
 " Always display the status line
 set laststatus=2
 
-set cursorline
-
 color minimalist
 highlight clear Search
 highlight Search ctermbg=lightgrey ctermfg=black
 highlight clear MatchParen
 highlight MatchParen ctermbg=grey ctermfg=black
 highlight SpecialKey ctermbg=NONE
+highlight NonText ctermfg=grey ctermbg=NONE
+highlight CursorLine ctermbg=darkgrey
 
 "Highlight extra whitespace
 highlight ExtraWhitespace ctermbg=167
@@ -81,4 +83,9 @@ vmap <Tab> >gv
 " vim-airline plugin
 let g:airline_powerline_fonts = 1
 
+" NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+
+" ctrlp
+let g:ctrlp_map = '<c-p>'
