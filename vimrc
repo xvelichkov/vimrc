@@ -82,6 +82,7 @@ vmap <Tab> >gv
 
 " vim-airline plugin
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#whitespace#enabled = 0
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
