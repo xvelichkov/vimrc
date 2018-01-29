@@ -48,6 +48,8 @@ set ts=4 sts=4 sw=4             " a tab is four spaces
 set smarttab
 set noexpandtab
 
+set diffopt+=vertical			" start diff mode with vertical splits
+
 " Always display the status line
 set laststatus=2
 
