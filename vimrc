@@ -53,7 +53,11 @@ set diffopt+=vertical			" start diff mode with vertical splits
 " Always display the status line
 set laststatus=2
 
-color minimalist
+try
+	color minimalist
+catch
+endtry
+
 highlight clear Search
 highlight Search ctermbg=lightgrey ctermfg=black
 highlight clear MatchParen
